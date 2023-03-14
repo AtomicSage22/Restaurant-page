@@ -1,5 +1,5 @@
 
-export function contact(page, nav){
+export function contactPopulator(page, nav){
     const contact = document.createElement("div");
     contact.className = "contact-info";
     const phoneHeading = document.createElement("h2");
