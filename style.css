@@ -72,3 +72,25 @@ body{
     width: 25rem;
     padding: 1rem;
 }
+
+.menu{
+    display: flex;
+    width: 40rem;
+    gap: 6rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.menu h2{
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    left: 13rem;
+    bottom: 16rem;
+}
+
+.menu p{
+    padding-left: 1rem;
+    width: 14rem;
+    font-size: 2rem;
+}
